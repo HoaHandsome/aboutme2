@@ -6,17 +6,30 @@
 <script src="https://kit.fontawesome.com/66e5d31267.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
 </head>
 <body>
 
-<!-- 
+
+
+
 
 <div id="nav-menu">
     <div id="sidebar">
-        <div id="close-sidebar">
+        <div id="close-sidebar" onclick="closeNavMenu()">
             <i class="fas fa-times"></i>
         </div>
+
+            <nav>
+                <ul class="text-center">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         <div class="card">
             <div class="card-info-img text-center">
                 <img src="./img/logo.png" alt="">
@@ -61,7 +74,7 @@
 
     </div>
 
-</div> -->
+</div> 
 
 
 
@@ -84,16 +97,15 @@
 
 
 
-
-
-
-
+<div id="icon-open-nav" onclick="openNavMenu()">
+    <i class="fas fa-bars"></i>
+</div>
 
 
     <header>
         
         <div class="container flex flex-between">
-            <h1><a href="#">Home</a></h1>
+            <h1><a href="#">V.HÒa</a></h1>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -103,10 +115,10 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <div class="sidebar-btn" onclick="openNavMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
             
-        </div>
-        <div class="sidebar-btn">
-            <i class="fas fa-bars"></i>
         </div>
     </header>
 
@@ -147,10 +159,13 @@
                             <div id="introduce">
                             <h2>ABOUT ME</h2>
                             <p><b>Xin chao toi la hoa</b></p>
-                            <p>I am talanted florist and decorator. I have graduated from International and cultural university of design and arts.
-                                Since first year in high school I relized that nature is most powerfull and beautiful gift in the world. I was
-                                captivated by beauty and simplicity of flowers and trees. Since then I have started to create and mastering unique and
-                                nice bouquets. My 1st masterpiece was garden of ant Ula Lowe decorated by me</p>
+                            <p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            
+                            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                            
+                            Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem</p>
                                 <a href="#" class="btn btn-outline"><i class="fas fa-share-alt"></i>Share</a>
                             </div>
                     </div>
@@ -421,4 +436,5 @@
     </footer>
    
 </body>
+<script src="./js/main.js"></script>
 </html>

@@ -1,0 +1,141 @@
+@media only screen and (max-width: 1024px) {
+ header .container, footer .container {
+     padding-left: 10px;
+ }
+}
+@media only screen and (max-width: 980px) {
+    #main > .flex{
+    flex-direction: column;
+    }#nav-right{
+        order: 1;
+        padding:0 100px ;
+    }
+    #card-info-group{
+        order: 2;
+    }
+    #main-content{
+        order: 3;
+    }
+    #nav-right nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    #nav-right li {
+        display: flex;
+        align-items: center;
+    }
+    #nav-right {
+    order: 1;
+    padding: 0 50px;
+    }
+    #card-info-group {
+    width: 100%;
+    /* left */
+    }
+    #main-content {
+    width: 100%;
+    margin: 10px 0;
+}
+}
+@media only screen and (max-width: 800px) {
+}
+@media only screen and (max-width: 780px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 720px) {
+}
+@media only screen and (max-width: 640px) {
+    #social{
+        padding: 0;
+    }
+    .item-work{
+        flex-direction: column;
+
+    }
+    
+    .work-time {
+    position: static;
+    padding: 5px;
+        padding-left: 20px;
+    background-color: #c0e3e7;
+    display: inline-block;
+    border-left: 1px solid #000;
+    }
+    #group-references {
+    padding: 0;}
+
+    #contact form {
+    padding: 30px 0 0 0 ;}
+    .form-group {
+    margin-bottom: 15px;
+    display: block;
+    }
+
+    #contact form label {
+    display:block;
+    text-align: start;
+    padding-right:0;
+    padding-bottom: 10px;}
+
+    #contact .btn {
+    margin-left: 0;
+    }
+    header nav{
+        display: none;
+    }
+    #icon-open-nav{
+        display: none;
+    }
+    header .sidebar-btn{
+        display: block;
+    }
+    header .container{
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .wrap {
+    padding: 30px;
+}
+}
+@media only screen and (max-width: 568px) {
+    .wrap {
+    padding: 20px;
+    }
+    #information{
+        flex-direction: column;
+    }
+    #information > div {
+    width: 80%;
+    padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 563px) {
+    #nav-right {
+    padding: 0;
+}
+}
+@media only screen and (max-width: 549px) {
+}
+@media only screen and (max-width: 534px) {
+}
+@media only screen and (max-width: 480px) {
+    .wrap {
+    padding: 10px;
+}
+}
+@media only screen and (max-width: 414px) {
+}
+@media only screen and (max-width: 411px) {
+}
+@media only screen and (max-width: 375px) {
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 338px) {
+}
+@media only screen and (max-width: 330px) {
+}
+@media only screen and (max-width: 320px) {
+}
