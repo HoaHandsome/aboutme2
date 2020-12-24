@@ -112,16 +112,23 @@ body{
         }
         .article{
             border-bottom: 1px solid rgb(192, 190, 190);
-            padding: 10px;
+            padding: 10px 0;
         }
-        #sidebar .article img{
-            width: 50px;
-            height: 50px;
+        .article > .grid{
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
         }
-        
+        #sidebar .article img {
+            width: 100%;
+            height: 100%;
+        }
+                
         #sidebar .article h2{
             display: inline-block;
             font-weight: 700;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            margin: 0;
         }
         #sidebar .article p{
             font-size: 12px;
