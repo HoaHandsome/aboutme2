@@ -149,7 +149,10 @@
             margin-bottom: 20px;
         }
         .wrap h3 {
-            margin-bottom:0;
+            margin:10px 0;
+        }
+        #languages i {
+            margin-right: 15px;
         }
 }
 @media only screen and (max-width: 414px) {
