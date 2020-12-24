@@ -135,6 +135,9 @@
     #sidebar{
         width: 280px;
     }
+    #sidebar .card > div {
+    padding: 20px 10px;
+    }
 }
 @media only screen and (max-width: 411px) {
 }
