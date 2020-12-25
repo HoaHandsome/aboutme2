@@ -109,10 +109,12 @@ body{
         #sidebar h2{
                 font-size: 15px;
                 text-transform: uppercase;
+                    font-weight: 900;
         }
         .article{
             border-bottom: 1px solid rgb(192, 190, 190);
             padding: 10px 0;
+            padding-bottom: 0;
         }
         .article > .grid{
             grid-template-columns: repeat(3, 1fr);
@@ -158,6 +160,9 @@ body{
             background-color: #fff;
             border-radius: 50%;
             padding:15px 20px;
+        }
+        #group-article{
+            border-bottom: 10px solid #7f7f7f;
         }
 
 /* content */
